@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+.rgbbluepurpleblue{
+		background:linear-gradient(120deg,rgb(141, 24, 141),rgb(9, 9, 194),rgb(209, 51, 209));
+		}
+
+.rgbbluepurpleblue1{
+	background:linear-gradient(120deg,rgb(141, 24, 141),rgb(9, 9, 194),rgb(209, 51, 209));
+	width: 100%;
+    color: rgb(0, 0, 0);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+
+.rgbblackblue{
+	background:linear-gradient(120deg,#2b2828,black,#0a7dca)
+}
+
+.rgbblueblack{
+	background:linear-gradient(120deg,#0a7dca,black,#2b2828)
+}
+
+
+
+.rgbblueblackblue{
+	background:linear-gradient(120deg,#0a7dca,black,black,#0a7dca)
+}
+
+.rgbblackgrayblack{
+	background:linear-gradient(120deg,black,#3f3b3b,black)
+		
+}
+
+.rgbblueblack1{
+	
+    color: rgb(0, 0, 0);
+    background: linear-gradient(90deg,#0a7dca,black,#0a7dca,black,#0a7dca);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+	
+}
+
+.rgbgraybac{
+	background-color: #272727;
+}
+
+.rgbbluepurple{
+	
+    color: rgb(0, 0, 0);
+    background: linear-gradient(-45deg, #2F4F4F, #00ffea,#0D4C8E,#D808F5);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+
+.scroll{
+    width:100%;
+    height:100%;
+    overflow-y:scroll;
+}
+
+.fixpage{
+	width: 40% ; 
+	height: 85%;
+	margin: 20px 10px 0px 10px
+	
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.butoonvasat{
+	padding: 0.5% 1%;
+	border-radius: 30px;
+	
+}
+
+.borderradis1{
+	border-radius: 30px;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
